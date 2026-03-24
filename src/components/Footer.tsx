@@ -37,7 +37,7 @@ export const Footer = () => {
             <h4 className="text-xs uppercase tracking-[0.2em] text-gold mb-6">Contact</h4>
             <div className="space-y-3 text-sm opacity-70">
               <p>📍Peela Talab, Rampur</p>
-              <p>📞 +91 9045606541</p>
+              <p>📞 +{import.meta.env.VITE_ADMIN_PHONE}</p>
               <p>✉️ hello@zeeshantailors.com</p>
               <p>🕐 Mon - Sat: 10AM - 8PM</p>
             </div>

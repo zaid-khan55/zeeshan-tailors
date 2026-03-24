@@ -71,6 +71,9 @@ const AdminPanel = () => {
           <form
             onSubmit={(e) => {
               e.preventDefault();
+              
+              console.log("ENTERED:", password);
+              console.log("ENV:", import.meta.env.VITE_ADMIN_PASSWORD);
               if (password === import.meta.env.VITE_ADMIN_PASSWORD?.trim()) {
                 setLoggedIn(true);
                 alert("Welcome back!");

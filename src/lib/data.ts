@@ -39,7 +39,7 @@ export const sampleDesigns: Design[] = [
 
 export const sampleOrders: Order[] = [
   {
-    id: "ORD001", customerName: "Priya Sharma", phone: "8430153819",
+    id: "ORD001", customerName: "Priya Sharma", phone: "8498765432",
     designId: "1", designTitle: "Elegant Chikankari Kurti",
     measurements: { bust: 36, waist: 30, hip: 38, length: 42, sleeve: 18 },
     status: "In Progress", urgent: false, deliveryDate: "2026-04-01", createdAt: "2026-03-10"
